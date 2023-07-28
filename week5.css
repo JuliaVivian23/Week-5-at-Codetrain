@@ -1,0 +1,51 @@
+body{
+	background-color: black;
+}
+
+.topnav{
+	background-color: white;
+	overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  .topnav a:hover {
+  background-color: darkslateblue;
+  color: white;
+}
+.topnav a.active {
+  background-color: cornflowerblue;
+  color: black;
+}
+
+ h2{
+ 	color:cornflowerblue;
+ 	font-size: 50px;
+ 	text-align: center;
+ 	margin-bottom: 10px;
+
+ }
+ .container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+p {
+  margin-top: 10px;
+  color: cornflowerblue;
+}
+
+
